@@ -1,0 +1,1168 @@
+html {
+}
+
+body {
+  margin: 0px;
+  background-color: #17030c;
+  font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial;
+  color: #fff7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: #28df99;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #091353;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid #091353;
+}
+
+u {
+  text-decoration: underline;
+}
+
+nav {
+  width: 100%;
+  background-color: #28df99;
+  display: flex;
+  padding-left: 10%;
+}
+
+ul {
+  text-align: center;
+  padding: 0px;
+}
+
+a {
+  width: auto;
+  height: auto;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: none;
+}
+
+a:hover {
+  background-color: #1dc987;
+  border-radius: 4px;
+}
+
+a:active {
+  background-color: #091353;
+  color: #1dc987;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+p {
+  padding: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  white-space: pre-line; /* ojo*/
+  font-size: 20px;
+}
+
+.Benefits__p {
+}
+
+.Paid__p {
+}
+
+.Expert__p {
+}
+
+.Effective__p {
+}
+
+.SocialMedia__p {
+}
+
+.Immersive__p {
+}
+
+.Powerful__p {
+}
+
+.How__jump {
+  font-size: 90px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.Why__img {
+  width: 50%;
+  height: 50%;
+}
+
+.Media__img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.Navbar__header {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  text-align: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.Brand {
+}
+.Brand:hover {
+  background-color: transparent;
+}
+
+.Brand__logo {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  color: #091353;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0px;
+  margin: -10px;
+}
+
+.Brand__logo:hover {
+  background-color: transparent;
+}
+
+.Contact__ {
+  padding: 8px;
+}
+
+section {
+  background-color: rgb(53, 4, 53);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+}
+
+.Block__Splash {
+  background: url("https://images.pexels.com/photos/3034343/pexels-photo-3034343.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260")
+    no-repeat center fixed;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid #091353 2px;
+}
+
+.Block__Why {
+  background-image: linear-gradient(
+    to bottom,
+    #090036,
+    #140539,
+    #1e073c,
+    #29073f,
+    #330741,
+    #36063b,
+    #370635,
+    #37072f,
+    #2d0822,
+    #230717,
+    #17030c,
+    #000000
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 1000px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Block__one {
+  background-image: linear-gradient(
+    to top,
+    #090036,
+    #140539,
+    #1e073c,
+    #29073f,
+    #330741,
+    #36063b,
+    #370635,
+    #37072f,
+    #2d0822,
+    #230717,
+    #17030c,
+    #000000
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 800px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.Block__two {
+  background-image: linear-gradient(
+    to left bottom,
+    #091269,
+    #220c55,
+    #270842,
+    #260831,
+    #210723
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 800px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.block__three {
+  background-image: linear-gradient(
+    to top,
+    #570a38,
+    #480b35,
+    #3a0b30,
+    #2d0a2a,
+    #210723
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 800px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__four {
+  background-image: linear-gradient(
+    to bottom,
+    #570a38,
+    #4c063d,
+    #3e0742,
+    #2c0a47,
+    #100e4a
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 900px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.block__five {
+  background-image: linear-gradient(
+    to left bottom,
+    #090036,
+    #14063e,
+    #220845,
+    #30074b,
+    #3e0551,
+    #420249,
+    #440241,
+    #45023a,
+    #380629,
+    #29081b,
+    #1b050f,
+    #000000
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 900px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.block__six {
+  background-image: linear-gradient(
+    to bottom,
+    #30041e,
+    #3d0832,
+    #44134b,
+    #442167,
+    #343185
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 800px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.block__seven {
+  background-image: linear-gradient(
+    to left bottom,
+    #2434d8,
+    #4e22b4,
+    #591292,
+    #580473,
+    #510057
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 1000px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.block__Team {
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    #1b050f,
+    #29081b,
+    #380629,
+    #45023a,
+    #4a0143,
+    #4e004d,
+    #510057,
+    #510057,
+    #510057,
+    #510057,
+    #510057
+  );
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 600px;
+
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid black 2px;
+}
+
+.Team__Agents {
+  width: 90%;
+  font-size: large;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  background-image: linear-gradient(
+    to top,
+    #2434d8,
+    #2130d0,
+    #1d2cc8,
+    #1928c1,
+    #1524b9
+  );
+
+  box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+  color: #fff7f7;
+}
+
+.Presence__Team {
+  padding-left: 30px;
+  font-size: xx-large;
+}
+
+.Agent__1 {
+  background-color: #091353;
+}
+
+.Agent__Box {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-evenly;
+  text-align: center;
+  align-content: center;
+}
+
+.Agent__Box2 {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  text-align: center;
+  align-content: center;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.HOLAS_1,
+.HOLAS_2,
+.HOLAS_3,
+.HOLAS_4,
+.HOLAS_5,
+.HOLAS_6,
+.HOLAS_7,
+.HOLAS_8 {
+  width: 90%;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  background-image: linear-gradient(
+    to top,
+    #2434d8,
+    #2130d0,
+    #1d2cc8,
+    #1928c1,
+    #1524b9
+  );
+
+  box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+  color: #fff7f7;
+}
+
+.Splash__Brand {
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+  box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Work__h1 {
+  font-size: 140px;
+  color: #28df99;
+  color: #091353;
+  padding-bottom: 30px;
+}
+
+.CTA__Button {
+  background-image: linear-gradient(
+    to right,
+    #2434d8,
+    #4e22b4,
+    #591292,
+    #580473,
+    #510057
+  );
+  border: none;
+  border-radius: 50px;
+  box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  color: #fff7f7;
+  padding: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.CTA__Button:active {
+  background-color: #1030ff;
+  color: #000000;
+}
+
+.CTA__Button:hover {
+  background-color: #28df99;
+  background-image: none;
+  border-color: #19cc95;
+  color: #fff7f7;
+  outline: none;
+  box-shadow: none;
+  border-radius: 50px;
+}
+
+.CTA__Button:visited {
+  background-image: linear-gradient(
+    to right,
+    #2434d8,
+    #4e22b4,
+    #591292,
+    #580473,
+    #510057
+  );
+  border: none;
+  border-radius: 50px;
+  box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  color: #fff7f7;
+  padding: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.Why__Benefits {
+  width: 90%;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  background-image: linear-gradient(
+    to top,
+    transparent,
+    #1928c1,
+    #1928c1,
+    #1524b9
+  );
+
+  color: #fff7f7;
+}
+
+.Benefits__title {
+  font-size: 48px;
+}
+
+.HOLAS_1 {
+}
+
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+.Footer__Media {
+  border-top: 2px solid #28df99;
+}
+
+.Media__contact {
+  width: 100%;
+  display: block;
+  background-color: #fff7f7;
+  text-align: center;
+  align-content: center;
+  padding-top: 30px;
+  color: #091353;
+  border-bottom: 2px solid #091353;
+}
+
+.Media__Copyright {
+  padding: 0px;
+  font-size: 24px;
+  height: auto;
+  padding-bottom: 60px;
+  font-weight: 600;
+}
+
+.Media__icons {
+  height: 100px;
+  color: #fff7f7;
+  padding-top: 20px;
+}
+
+.Icons {
+  width: 70px;
+  height: 60px;
+  padding: 6px;
+
+  background-color: none;
+}
+.IconsLinks:hover {
+  background-color: transparent;
+}
+
+/*MEDIA QUERIES */
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    font-size: medium;
+  }
+
+  header {
+    background-color: #28df99;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .Brand__logo{
+    padding-top: 17px;
+  }
+
+  .Navbar__header {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .Splash__Brand {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .Work__h1 {
+    font-size: 60px;
+    color: #28df99;
+    color: #091353;
+    padding-bottom: 30px;
+  }
+
+  .CTA__Button {
+    background-image: linear-gradient(
+      to right,
+      #2434d8,
+      #4e22b4,
+      #591292,
+      #580473,
+      #510057
+    );
+    border: none;
+    border-radius: 50px;
+    box-shadow: -1px 31px 40px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #fff7f7;
+    padding: 26px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-left: 0px;
+  }
+
+  .Media__Copyright {
+    padding: 0px;
+    font-size: 14px;
+    padding-top: 40px;
+  }
+
+  .Agent__Box2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-weight: 600;
+    flex-direction: column;
+  }
+
+p{
+ font-size: small; 
+}
+
+
+.Why__img {
+  width: 100%;
+  height: 31%;
+}
+.Benefits__title {
+  font-size: 25px;
+}
+
+h2{
+  font-size:  16px;
+}
+
+
+.Block__one{
+  padding-bottom: 100px;
+}
+
+.Block__two{
+  padding-bottom: 300px;
+}
+
+.Block__three{
+  padding-bottom: 150px;
+}
+
+.Block__four{
+padding-bottom: 250px;
+
+}
+
+.Block__five{
+  padding-bottom: 350px;
+}
+
+.block__seven{
+  padding-bottom: 400px;
+}
+
+.Block__Team{
+  padding-bottom: 300px;
+}
+
+}
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+
+    .Block__Why{
+      padding-bottom: 800px;
+    }
+
+    .Block__one{
+      padding-bottom: 700px;
+    }
+    
+    .Block__two{
+      padding-bottom: 600px;
+    }
+    
+    .Block__three{
+      padding-bottom: 350px;
+    }
+    
+    .Block__four{
+    padding-bottom: 550px;
+    
+    }
+    
+    .Block__five{
+      padding-bottom: 750px;
+    }
+    
+    .block__seven{
+      padding-bottom: 800px;
+    }
+    
+    .Block__Team{
+      padding-bottom: 500px;
+    }
+
+
+
+
+.Footer__Media{
+  margin-top: 400px;
+}
+
+
+}
+
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    .Work__h1{
+      font-size: 70px;
+    }
+
+    .Why__img{
+      width: 80%;
+      height: 40%;
+    }
+    
+    .Block__one{
+      padding-bottom: 250px;
+    }
+    .Block__two{
+      padding-bottom: 400px;
+    }
+    .Block__three{
+      padding-bottom: 350px;
+    }
+
+    .Block__three{
+      padding-bottom: 400px;
+    }
+
+    .Block__four{
+      padding-bottom: 500px;
+    }
+    .Block__five{
+      padding-bottom: 500px;
+    }
+
+    .Block__seven{
+      padding-bottom: 500px;
+    }
+
+    .Block__Team{
+      padding-bottom: 400px;
+    }
+
+    .Brand__logo{
+      padding-top: 16px;
+    }
+
+    .Benefits__title{
+      font-size: 36px;
+    }
+
+    h2{
+      
+    }
+
+    .How__jump{
+      font-size: 60px;
+    }
+
+
+    .Navbar__header{
+      
+    display: flex;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    }
+
+    .Agent__Box2{
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      text-align: center;
+      align-content: center;
+      padding: 20px;
+      font-weight: 600;
+      flex-direction: column;
+
+    }
+
+    p{
+      font-size:small;
+    }
+
+    .Media__Copyright {
+      padding: 0px;
+      font-size: 16px;
+      height: auto;
+      padding-top: 40px;
+      padding-bottom: 13px;
+      font-weight: 600;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .Work__h1{
+      font-size: 76px;
+    }
+
+    .Block__one{
+      padding-bottom: 200px;
+    }
+
+    .Block__three{
+      padding-bottom: 250px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .Work__h1{
+      font-size: 56px;
+    }
+    .CTA__Button{
+      font-size: 14PX;
+    }
+
+    .Navbar__header{
+      
+      display: flex;
+      width: 90%;
+      text-align: center;
+      padding: 20px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: flex-start;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 9px;
+      }
+
+      .Why__img{
+        width: 74%;
+        height: 34%;
+      }
+
+      h2{
+        font-size: 14px;
+        padding: 10px;
+      }
+      .How__jump{
+        font-size: 54px;
+      }
+
+      .Icons{
+        width: 50px;
+        height: 40px;
+      }
+
+      .Benefits__title{
+        font-size:26px;
+      }
+      
+      .Brand__logo{
+        padding-right: 20px;
+        margin: -16px;
+        width: 50px;
+        height: 50px;
+        padding-top: 10px;
+      }
+
+      p{
+        font-size:small;
+      }
+      .Media__Copyright{
+      padding: 0px;
+      font-size: 12px;
+      height: auto;
+      padding-bottom: 24px;
+      font-weight: 600;
+      }
+      
+      .Media__icons{
+        padding-bottom: 40px;
+      }
+
+      .Block__Why{
+        padding-bottom: 250px;
+      }
+
+      .Block__one{
+        padding-bottom: 450px;
+      }
+      .Block__two{
+        padding-bottom: 800px;
+      }
+      .Block__three{
+        padding-bottom: 450px;
+      }
+  
+  
+      .Block__four{
+        padding-bottom: 500px;
+      }
+      .Block__five{
+        padding-bottom: 600px;
+      }
+  
+      .Block__seven{
+        padding-bottom: 700px;
+      }
+  
+      .Block__Team{
+        padding-bottom: 400px;
+      }
+
+
+
+
+  .Agent__Box2 {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-weight: 600;
+    flex-direction: column;
+  }
+
+  }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+
+
+
+
+
+
+/* ----------- Laptop ----------- */
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+/* ----------- Laptop 15.6 standar----------- */
+
+@media only screen 
+   and (max-width : 1200px) 
+   and (max-height : 1368px) {
+   
+    .Block__Why{
+      padding-bottom: 1170px;
+    }
+}
